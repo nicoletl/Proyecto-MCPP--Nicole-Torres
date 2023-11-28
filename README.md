@@ -9,6 +9,12 @@ A partir de allí, se ve la necesidad de realizar un analisis del sector a parti
 Poder realizar un analisis mas exhaustivo del comercio minorista mes a mes para la publicacion del ISE y del PIB
 
 ## Fuente de información:
-Se carga la Encuesta Mensual de Comercio (EMC) minorista desarrollada por el DANE, la cual proporciona los principales indicadores sobre la evolución de la actividad comercial del país, por medio de resultados del comercio al por menor y de vehículos, al generar información sobre variables como ventas, personal ocupado y sueldos y salarios.¶
+Se carga la Encuesta Mensual de Comercio (EMC) minorista desarrollada por el DANE, la cual proporciona los principales indicadores sobre la evolución de la actividad comercial del país, por medio de resultados del comercio al por menor y de vehículos, al generar información sobre variables como ventas, personal ocupado y sueldos y salarios.¶ de empresas de comercio al por menor dedicadas a la "reventa" (venta sin transformación) de mercancías o productos, que se encuentran en el territorio nacional 
 
-Esta encuesta a nivel de microdato, recoge la información de 400 variables para 2301 empresas. La EMC viene del periodo de enero de 2019 a septiembre de 2023, y para objeto de analisis se toma la información de las variables que recogen las ventas reales por linea de mercancia a nivel nacional, así como de las ventas reales por actividad económica para realizar el analisis regional.
+La encuesta tiene cobertura a nivel nacional y a nivel regional mide los departamentos de Antioquia, Atlántico, Bogotá, Cundinamarca, Santander, Valle del Cauca. Existe además un dominio residual correspondiente a "otros departamentos".
+
+Esta encuesta a nivel de microdato, recoge la información de 400 variables para 2301 empresas. 
+
+La EMC viene del periodo de enero de 2019 a septiembre de 2023, y para objeto de analisis se toma la información de las variables que recogen las ventas reales por linea de mercancia a nivel nacional, así como de las ventas reales por actividad económica para realizar el analisis regional.
+
+##¿cómo han sido los últimos tiempos en oferta y demanda en colombia? ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/35a88d09-e6bc-4823-9c76-0b9efdc27c15)
