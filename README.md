@@ -1,8 +1,10 @@
 # Proyecto-MCPP-
-Considerando el contexto de desaceleración económica experimentado en 2023, como resultado de la transformación económica y social luego de atravesar por una pandemia global, se propone llevar a cabo un análisis del sector de comercio al por mayor y menor en el país.
+Considerando el contexto de desaceleración económica experimentado en 2023, como resultado de la transformación económica y social luego de atravesar por un dos periodos de reactividación y crecimiento economico en 2021 y 2022, se propone llevar a cabo un análisis del sector de comercio al por menor en el país.
 
 ## Motivacion:
-Considerando que la actividad de comercio, transporte y alojamiento tiene un peso del 20,1% en el valor agregado para el año 2022, siendo la actividad que mayor peso tiene seguido de la industria que pesa el 13,4%,   y dentro de esta actividad el sector de coemrcio al por mayor y menor tiene un peso de 49,2%
+Considerando que la actividad de comercio, transporte y alojamiento tiene una participación del 20,1% en el valor agregado para el año 2022, siendo la actividad que mayor peso tiene seguido de la industria con el 13,4%, y dentro de esta actividad el sector de comercio al por mayor y menor tiene un peso de 49,2%  y para los resultados del III trimestre de 2023 fue uno de los sectores que mas contribuyó al decrecimiento de -0,1% en el valor agregado, aportando -0.7p.p con una variación de -3,5% . 
+
+A partir de allí, se ve la necesidad de realizar un analisis del sector a partir de la encuesta mensual de comercio minorista que realiza el DANE, tomando la encuesta a nivel de microdato que se puede obtener en la mesa DANE de la Universidad del Rosario. 
 
 Poder realizar un analisis mas exhaustivo del comercio minorista mes a mes para la publicacion del ISE y del PIB
 
