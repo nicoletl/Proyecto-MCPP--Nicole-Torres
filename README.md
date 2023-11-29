@@ -25,9 +25,12 @@ Para entrar a continuación se observa la evolución del consumo de los hogares 
 ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/4879840d-94d6-4357-8ecb-e352977df5b3)
 
 En linea con lo anterior, a continuación tenemos el comportamiento del sector de comercio al por mayor y menor, el agregado de comercio, transporte y alojamiento y el PIB en su serie desestacionalizada, en variaciones anuales y la serie transformada en indice base 2019.
-Al utilizar un índice base, se elimina la magnitud absoluta de las cifras y se resalta la variación porcentual con respecto a un período específico (en este caso, 2019 dado que fue el periodos posterior a la pandemia). Un valor de menos de 100 indica una reducción en las ventas, mientras que un valor superior a 100 indicaría un aumento en comparación con el nivel observado en 2019.
 
 En terminos de variaciones anuales, se resalta el decrecimiento del comercio que se empezó a observar finalizando el 2022
 ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/e990c35f-8250-4dc5-8996-6895b3cc18fe)
+
+Observamos los resultados desestacionalizados esta vez, de las series transformadas en índices base 2019. Al utilizar un índice base, se elimina la magnitud absoluta de las cifras y se resalta la variación porcentual con respecto a un período específico (en este caso, 2019 dado que fue el periodo posterior a la pandemia). Un valor de menos de 100 indica una reducción de la actividad, mientras que un valor superior a 100 indicaría un aumento en comparación con el nivel observado en 2019. Se observa que incluso desde 2022 la actividad no ha logrado superar los resultados de 2019, sin embargo, aún no muestra tendencia negativa. 
+
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/5bbb14de-1ded-4091-9f99-dda1306465fe)
 
 
