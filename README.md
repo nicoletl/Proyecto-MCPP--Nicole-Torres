@@ -15,9 +15,10 @@ Se toma la Encuesta Mensual de Comercio (EMC) minorista desarrollada por el DANE
 
 ## Caracteristicas:
 
-*La encuesta tiene cobertura a nivel nacional y a nivel regional mide los departamentos de Antioquia, Atlántico, Bogotá, Cundinamarca, Santander, Valle del Cauca. Existe además un dominio residual correspondiente a "otros departamentos".
-*A nivel de microdato recoge la información de 400 variables para 2301 empresas. 
-*La EMC viene del periodo de enero de 2019 a septiembre de 2023, y para objeto de analisis se toma la información de las variables que recogen las ventas reales por linea de mercancia a nivel nacional, así como de las ventas reales por actividad económica para realizar el analisis regional, y el personal ocupado por departamentos.
+* La encuesta tiene cobertura a nivel nacional y a nivel regional mide los departamentos de Antioquia, Atlántico, Bogotá, Cundinamarca, Santander, Valle del Cauca. Existe además un dominio residual correspondiente a "otros departamentos".
+* A nivel de microdato recoge la información de 400 variables para 2301 empresas. 
+* La EMC viene del periodo de enero de 2019 a septiembre de 2023, y para objeto de analisis se toma la información de las variables que recogen las ventas reales por linea de mercancia a nivel nacional, así como de las ventas reales por actividad económica para realizar el analisis regional, y el personal ocupado por departamentos.
+* A raíz de la magnitud de la información que recoge la encuesta se hace mas eficiente realizar su analisis en python
 
 ## Contexto
 
