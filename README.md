@@ -4,7 +4,7 @@ Considerando el contexto de desaceleración económica experimentado en 2023, co
 En este readme se encuentra la descripcion de los resultados obtenidos atraves del analisis exploratorio de la EMC minorista. En el notebook encontrarán el paso a paso para obtener cada resultado.
 
 ## Motivacion:
-Considerando que la actividad de comercio, transporte y alojamiento tiene una participación del 20,1% en el valor agregado para el año 2022, siendo la actividad que mayor peso tiene seguido de la industria con el 13,4%, y dentro de esta actividad el sector de comercio al por mayor y menor tiene un peso de 49,2%,  y según el DANE, para el III trimestre de 2023 fue uno de los sectores que mas contribuyó al decrecimiento de -0,1% en el valor agregado, aportando -0,7p.p con una variación de -3,5% . 
+Considerando que la actividad de comercio, transporte y alojamiento tiene una participación del 20,1% en el valor agregado para el año 2022, siendo la actividad que mayor peso tiene seguido de la industria con el 13,4%, y dentro de esta actividad el sector de comercio al por mayor y menor tiene un peso de 49,2%, y según el DANE, para el III trimestre de 2023 fue uno de los sectores que mas contribuyó al decrecimiento de -0,1% en el valor agregado, aportando -0,7p.p con una variación de -3,5% . 
 
 A partir de allí, se ve la necesidad de realizar un analisis de la actividad a partir de la encuesta mensual de comercio minorista que realiza el DANE, tomando la encuesta a nivel de microdato que se puede obtener en la mesa DANE de la Universidad del Rosario. 
 
@@ -15,7 +15,7 @@ Se toma la Encuesta Mensual de Comercio (EMC) minorista desarrollada por el DANE
 
 *La encuesta tiene cobertura a nivel nacional y a nivel regional mide los departamentos de Antioquia, Atlántico, Bogotá, Cundinamarca, Santander, Valle del Cauca. Existe además un dominio residual correspondiente a "otros departamentos".
 *A nivel de microdato recoge la información de 400 variables para 2301 empresas. 
-*La EMC viene del periodo de enero de 2019 a septiembre de 2023, y para objeto de analisis se toma la información de las variables que recogen las ventas reales por linea de mercancia a nivel nacional, así como de las ventas reales por actividad económica para realizar el analisis regional.
+*La EMC viene del periodo de enero de 2019 a septiembre de 2023, y para objeto de analisis se toma la información de las variables que recogen las ventas reales por linea de mercancia a nivel nacional, así como de las ventas reales por actividad económica para realizar el analisis regional, y el personal ocupado por departamentos.
 
 ## Contexto
 
@@ -23,18 +23,20 @@ Se toma la Encuesta Mensual de Comercio (EMC) minorista desarrollada por el DANE
 
 A continuación se observa la evolución del consumo de los hogares en los últimos años, que está directamente relacionado con el comercio minorista. 
 
-2019 fue un año de cotidianidad, luego, en 2020, nos enfrentamos a la incertidumbre con la llegada de la pandemia. El año 2021 marcó un periodo de reactivación, con un aumento en la compra de bienes duraderos y semiduraderos, y el regreso gradual a la presencialidad con la disminución de restricciones. Durante 2022, observamos un crecimiento significativo, impulsado por la completa normalización de la presencialidad y la tendencia de los hogares a participar en eventos y adquirir bienes y servicios fue notable. Sin embargo, al llegar a 2023, nos encontramos en un momento de ajuste, pues el consumo de bienes duraderos y no duraderos ha disminuido debido al impacto negativo del aumento de la inflación, que alcanzó máximos del 12% - 13% anual, y al incremento de las tasas de interés. Estos factores han desincentivado el consumo y se reflejan en la contracción de la actividad comercial en este año.
+2019 fue un año de cotidianidad, luego, en 2020, nos enfrentamos a la incertidumbre con la llegada de la pandemia. El año 2021 marcó un periodo de reactivación, con un aumento en la compra de bienes durables y semidurables, y el regreso gradual a la presencialidad con la disminución de restricciones. Durante 2022, observamos un crecimiento significativo, impulsado por la completa normalización de la presencialidad y la tendencia de los hogares a participar en eventos y adquirir bienes y servicios fue notable. Sin embargo, al llegar a 2023, nos encontramos en un momento de ajuste, pues el consumo de bienes ha disminuido debido al impacto negativo del aumento de la inflación, que alcanzó máximos del 12% - 13% anual, y al incremento de las tasas de interés. Estos factores han desincentivado el consumo y se reflejan en la contracción de la actividad de comercio en este año.
 
 ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/4879840d-94d6-4357-8ecb-e352977df5b3)
 
 ## Ventas reales minoristas totales
 
-En linea con lo anterior, a continuación tenemos el comportamiento del sector de comercio al por mayor y menor, el agregado de comercio, transporte y alojamiento y el PIB en su serie desestacionalizada, en variaciones anuales y la serie transformada en indice base 2019.
+En linea con lo anterior, con el fin de entrar en contexto, a continuación tenemos el comportamiento del sector de comercio al por mayor y menor, el agregado de comercio, transporte y alojamiento y el PIB en su serie desestacionalizada, en variaciones anuales y la serie transformada en indice base 2019.
 
-En terminos de variaciones anuales, se resalta el decrecimiento del comercio que se empezó a observar finalizando el 2022
+En terminos de variaciones anuales, se resalta el decrecimiento del comercio que se empezó a observar finalizando el 2022.
 ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/8e56a0a6-1f64-45b4-b7ea-1de65078dcea)
 
-Tambien vale la pena observar los resultados desestacionalizados, esta vez de las series transformadas en índices base 2019. Al utilizar un índice base, se elimina la magnitud absoluta de las cifras y se resalta la variación porcentual con respecto a un período específico (en este caso, 2019 dado que fue el periodo posterior a la pandemia). Un valor de menor a 100 indica una reducción de la actividad, mientras que un valor superior a 100 indicaría un aumento en comparación con el nivel observado en 2019. Se observa que incluso desde 2022 la actividad no ha logrado superar los resultados de 2019, sin embargo, aún no muestra tendencia negativa. 
+Tambien vale la pena observar los resultados desestacionalizados, esta vez de las series transformadas en índices base 2019. Al utilizar un índice base, se elimina la magnitud absoluta de las cifras y se resalta la variación porcentual con respecto a un período específico (en este caso, 2019 dado que fue el periodo posterior a la pandemia). Un valor de menor a 100 indica una reducción de la actividad, mientras que un valor superior a 100 indicaría un aumento en comparación con el nivel observado en 2019. 
+
+En este caso, se observa que incluso desde 2022 la actividad no ha logrado superar los resultados de 2019, sin embargo, aún no muestra tendencia negativa. 
 
 ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/93824a03-bcdb-43b4-a800-e4b17176f52f)
 
@@ -102,7 +104,7 @@ Al observar el mismo ejercio para Bogotá se observa un cambio de tendencia, pod
 
  ## ¿Qué se espera del comercio para 2024?
 
-El anális realizado permitió ver cómo comercio minorista en 2023 se ha visto afectado por la coyunyura economica de la inflación, en la medida en que varias lineas de mercancia presentan decrecimiento en sus ventas reales atribuido a los precios altos y al alza en las tasas de interés que desincentiva la adquisición de estos bienes, y por el contrario, la tendencia de los hoagres esta orientada a adquirir solamente bienes básicos como los productos de aseo personal que sí han mostrado crecimiento en 2023. 
+El análisis realizado permitió ver cómo el comercio minorista en 2023 se ha visto afectado por la coyunyura economica marcada por la inflación, en la medida en que varias lineas de mercancia presentan decrecimiento en sus ventas reales, comportamiento atribuido a los precios altos y al alza en las tasas de interés que desincentiva la adquisición de estos bienes, y por el contrario, la tendencia de los hoagres esta orientada a adquirir solamente bienes básicos como los productos de aseo personal que sí han mostrado crecimiento en 2023. 
 
 En el futuro, se anticipa que el comercio continuará enfrentando desafíos debido a la difícil situación económica. La presión sobre el presupuesto de los hogares, combinada con la disminución de la capacidad de consumo, contribuirá a este escenario. La ausencia de incentivos, como la política del Día sin IVA, también podría impactar negativamente en el sector. 
 
