@@ -34,7 +34,7 @@ Se destaca que 2019 fue un año de cotidianidad, luego, en 2020, nos enfrentamos
 En linea con lo anterior, con el fin de comprender como se ha comportado la actividad, a continuación tenemos el comportamiento de las series desestacionalizadas del valor agregado del sector de comercio al por mayor y menor, el total de comercio, transporte y alojamiento, y del PIB publicadas por el DANE, con el fin de entrar en contexto frente a cómo se ha comportado el sector en los ultimos años.
 
 En primer lugar se observa el comportamiento en terminos de variaciones anuales, donde se resalta el decrecimiento del comercio que se empezó a observar finalizando el 2022.
-![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/b2495959-2f40-47ae-8669-3f22aa6bb8c3)
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/7c814b83-86f5-4b42-a31e-170380b2636f)
 
 Por otro lado, vale la pena observar el comportamiento de las series transformadas en índices base 2019. Cabe destacar que, al utilizar un índice base, se elimina la magnitud absoluta de las cifras y se resalta la variación porcentual con respecto a un período específico (en este caso, 2019 dado que fue el periodo posterior a la pandemia). Un valor de menor a 100 indica una reducción de la actividad, mientras que un valor superior a 100 indicaría un aumento en comparación con el nivel observado en 2019, se transforma la serie en año base con el fin de obtener una mejor comparación. 
 
@@ -56,10 +56,10 @@ Para observar a que se debe ese comportamiento, a continuación se observa un ma
 
 En el grafico, los colores claros indican decrecimiento y los azules crecimientos altos. Se puede observar las fases del consumo mencionadas anteriormente: la caída en 2020 de la mayoria de lineas, luego en 2021 y 2022 varias que reflejan crecimientos muy positivos, y finalmente en 2023 se empezó a ver el proceso de ajuste con crecimientos más moderados.
 
-![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/2538f931-e67c-46a2-badb-7f287786fcf3)
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/49e0f082-4561-40ff-aa1d-fb6eeee88f6b)
 
 Debido a la cantidad de lineas, solo nos concentraremos en las 10 que tienen la mayor participación sobre el total de ventas reales
-![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/5e854510-1734-4b43-b4d5-8aa01d4f64dc)
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/d2adf42d-30bf-4866-90ee-9d41d716d7e8)
 
 A continuación, nuevamente tenemos el heatmap pero con las linas de mercancia con mayor participación, al analizar el grafico se logra determinar:
 
@@ -75,13 +75,13 @@ A continuación, nuevamente tenemos el heatmap pero con las linas de mercancia c
 
 * Vehículos: los vehículos han sido una de las lineas mas afectadas en el año, considerando que en 2022 se tenía una mayor demanda. En 2023 el decrecimiento es atribuido principalmente al encarecimiento del crédito por las altas tasas de interés han desincentivado a los hogares en la compra de estos bienes, y recientemente también hay algunos gremios que mencionan que hay un impacto negativo por las alzas en los precios de los combustibles.
 
-![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/7c5ebea2-5a75-4011-8fad-0414d9ad07ba)
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/47fb565a-63a7-418c-bc0f-b077886d04bb)
 
 ## Análisís regional:
 
 La encuesta también hace una medicion a nivel regional, aunque con ciertas limitaciones. En el grafico se observa la participación por departamento en las ventas reales totales a nivel nacional, donde se destaca la participación de Bogotá, Antioquia y Valle del Cauca y una agrupación adicional que se denomina "otros departamentos" que reune las ventas de los departamentos restantes.
 
-![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/21161aac-6e38-4389-9c82-e6cdb4f8d8b7)
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/aeb581d4-f3f3-4314-8e78-5c4048a02f70)
 
 Para analizar los resultados por departamento, se obtiene el total de ventas reales desde los meses de enero a septiembre de cada año, considerando que la EMC utilizada esta disponible hasta septiembre de 2023. De esta forma, se obtiene un grafico de barras que consolida los resultados de las ventas trasnformadas en indice base 2019 para cada año. 
 
