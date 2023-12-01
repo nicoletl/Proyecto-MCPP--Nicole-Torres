@@ -1,6 +1,6 @@
 # Proyecto-MCPP-
 
-## Anáisis del sector de comercio al por menor en Colombia 2019-2023
+## Análisis del sector de comercio al por menor en Colombia 2019-2023
 Considerando el contexto de desaceleración económica experimentado en 2023, como resultado de la transformación económica y social luego de atravesar por dos periodos de reactividación y crecimiento economico en 2021 y 2022, se propone llevar a cabo un análisis del sector de comercio al por menor en el país.
 
 En este readme se encuentra la descripcion de los resultados obtenidos atraves del analisis exploratorio de la EMC minorista. En el notebook encontrarán el paso a paso para obtener cada resultado.
