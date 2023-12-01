@@ -50,11 +50,11 @@ A continuación, se muestra el primer ejercicio realizado con la EMC en donde se
 
 Respecto a 2023 se observa una disminución en la magnitud del índice, si bien se mantiene superior a 100, se registra una disminución significativa respecto a los indices de 2022, mostrando un estancamiento de las evtnas sin señales de recuperar la magnitud de 2022. 
 
-![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/117d5d35-66e9-4475-8895-f1a4ae7c461
+![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/73ce38b6-43cd-4aac-b303-e55781eaac3a)
 
-Para observar a que se debe ese comportamiento, a continuación se observa un mapa de calor que indica el comportamiento historico en terminos de variaciones anuales de las 19 lineas de mercancia que calcula la EMC, las lineas de mercancia corresponden a la agrupación de productos que define la encuesta. 
+Para observar a que se debe ese comportamiento, a continuación se observa un mapa de calor que muestra el comportamiento historico en terminos de variaciones anuales de las 19 lineas de mercancia que calcula la EMC, las lineas de mercancia corresponden a la agrupación de productos que define la encuesta. 
 
-En el grafico, os colores claros indican decrecimiento y los azules crecimientos altos. Se puede observar las fases del consumo mencionadas anteriormente: la caída en 2020 de la mayoria de lineas, luego en 2021 y 2022 varias que reflejan crecimientos muy positivos, y finalmente en 2023 se empezó a ver el proceso de ajuste con crecimientos más moderados.
+En el grafico, los colores claros indican decrecimiento y los azules crecimientos altos. Se puede observar las fases del consumo mencionadas anteriormente: la caída en 2020 de la mayoria de lineas, luego en 2021 y 2022 varias que reflejan crecimientos muy positivos, y finalmente en 2023 se empezó a ver el proceso de ajuste con crecimientos más moderados.
 
 ![image](https://github.com/nicoletl/Proyecto-MCPP-/assets/69484970/2538f931-e67c-46a2-badb-7f287786fcf3)
 
